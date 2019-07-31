@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    display: grid;   
+    background-color: blanchedalmond; 
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+section {
+    display: grid;
+    margin-top: 90%;
+    
+}
+
+#title {
+    background-color: limegreen;
+    /* color: blanchedalmond; */
+    text-align: center;
+    padding: 10px 50px; 
+}
+
+.skills-list {
+    display: grid;
+
+}
+
+ul {
+    margin-top: 30px;
+}
+
+ul li {
+    display: flex;
+    list-style: none;
+    margin: 15px;
+    color: orangered;
+
+    
+}
+
+.btn {
+
+    border: 2px solid seagreen;
+    box-shadow: none;
+    background-color: blanchedalmond;
+    color: seagreen;
+    
+}
+
+.removeBtn {
+    background-color: red;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0px
+
+}
+
