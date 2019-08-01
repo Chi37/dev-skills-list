@@ -10,7 +10,7 @@ body {
     color: blanchedalmond;
 }
 
-section {
+form {
     display: grid;
     margin-top: 90%;
     
@@ -24,7 +24,8 @@ section {
 }
 
 .skills-list {
-    display: grid;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -38,7 +39,6 @@ ul li {
     margin: 15px;
     color: orangered;
 
-    
 }
 
 .btn {
