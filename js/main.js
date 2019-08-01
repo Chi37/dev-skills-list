@@ -21,6 +21,17 @@ $('#submit-btn').on('click', function(e){
     addToSkillArr(skill);
 });
 
+$('ul').on(
+    'click', 
+    'button', 
+    function() {
+        $(this).closest('li').fadeOut(1000, function() {
+            // now that the tr is hidden, let's completely remove it from the DOM
+            $(this).remove();
+        });
+    }
+);
+
 
 //cacheing skills, I think
 
