@@ -38,13 +38,9 @@ ul li {
     
     display: flex;
     list-style: none;
-    color: orangered;
-    font-family: serif;ul {
-        margin: 30px;
-      
-    }
+    color: orange;
+    font-family: serif;
     justify-items: left;
-    background-color: aqua;
 
 }
 
