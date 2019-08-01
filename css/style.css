@@ -14,7 +14,7 @@ body {
     margin-top: 50px;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    padding: 300px;
 }
 
 #title {
@@ -32,6 +32,10 @@ body {
 ul {
     margin: 30px;
   
+}
+li {
+    margin-left: -70px;
+    padding: 10px;
 }
 
 ul li {
@@ -61,3 +65,11 @@ ul li {
 
 }
 
+#submitted-skill {
+    border: 2px solid seagreen;
+}
+
+input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+  }
